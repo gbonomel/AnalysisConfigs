@@ -1,0 +1,23 @@
+object_preselection:
+  Muon:
+    pt: 15.0
+    eta: 2.4
+    # isoFlag: 4 #PFIsoTight
+    iso: 0.15  #PFIsoLoose
+    id: tightId
+
+  Electron:
+    pt: 15.0
+    eta: 2.4 
+    # iso: 6 # so large, it doesnt matter
+    # ~ id: mvaFall17V2Iso_WP80
+    id: mvaIso_WP80
+    # id: mvaIso_WP80
+
+  Jet:
+    dr_lepton: 0.4
+    pt: 30.0
+    eta: 2.4
+    jetId: 6 #tight:2; tightlepVeto:6
+    btag: 
+      wp: M

@@ -1,5 +1,8 @@
 from collections.abc import Iterable
 import awkward as ak
+import numpy as np
+import correctionlib
+from pocket_coffea.lib.cut_definition import Cut
 
 def semileptonic(events, params, year, sample, **kwargs):
 
@@ -25,11 +28,40 @@ def semileptonic(events, params, year, sample, **kwargs):
         )
         & (events.nJetGood >= params["njet"])
         & (events.nBJetGood >= params["nbjet"])
-        & (events.MET.pt > params["met"])
+        & (events.PuppiMET.pt > params["met"])
     )
 
     # Pad None values with False
     return ak.where(ak.is_none(mask), False, mask)
+
+def ttB_masks(events, params, processor_params, year, isMC, **kwargs):
+	""" Categorization of ttbar events according to genTtbar ID, see reference here:
+	 https://twiki.cern.ch/twiki/bin/view/CMSPublic/GenHFHadronMatcher#Event_categorization_example_1 """ 
+	
+	genTtbarId = events["genTtbarId"]
+	if params["ttBId"] == "ttB":
+		return (((abs(genTtbarId) % 100) == 51)
+			| ((abs(genTtbarId) % 100) == 52)
+			| ((abs(genTtbarId) % 100) == 53)
+			| ((abs(genTtbarId) % 100) == 54)
+			| ((abs(genTtbarId) % 100) == 55))
+	elif params["ttBId"] == "ttC":
+		return (((abs(genTtbarId) % 100) == 41)
+		    | ((abs(genTtbarId) % 100) == 42)
+			| ((abs(genTtbarId) % 100) == 43)
+			| ((abs(genTtbarId) % 100) == 44)
+			| ((abs(genTtbarId) % 100) == 45))
+	elif params["ttBId"] == "ttLF":
+		return ~(((abs(genTtbarId) % 100) == 41)
+			| ((abs(genTtbarId) % 100) == 42)
+			| ((abs(genTtbarId) % 100) == 43)
+			| ((abs(genTtbarId) % 100) == 44)
+			| ((abs(genTtbarId) % 100) == 45)
+			| ((abs(genTtbarId) % 100) == 51)
+			| ((abs(genTtbarId) % 100) == 52)
+			| ((abs(genTtbarId) % 100) == 53)
+			| ((abs(genTtbarId) % 100) == 54)
+			| ((abs(genTtbarId) % 100) == 55))
 
 def eq_genTtbarId_100(events, params, year, sample, **kwargs):
     """

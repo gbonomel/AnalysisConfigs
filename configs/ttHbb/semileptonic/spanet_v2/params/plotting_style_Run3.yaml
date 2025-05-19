@@ -1,0 +1,56 @@
+plotting_style:
+  labels_mc:
+    TTToLNu2Q__ttB: "$t\\bar{t}$ semilep B"
+    TTToLNu2Q__ttC: "$t\\bar{t}$ semilep C"
+    TTToLNu2Q__ttLF: "$t\\bar{t}$ semilep LF"
+    TTTo2L2Nu : "$t\\bar{t}$ dilepton"
+    TTH_Hto2B: "$t\\bar{t}$H($b\\bar{b}$)"
+    TTHtoNon2B: "$t\\bar{t}$H(other)"
+
+  samples_groups:
+    "TTV":
+      - TTLL_ML_to50
+      - TTLL_ML_50
+      - TTNuNu
+      - TTLNu
+      - TTZ
+    "V+jets":
+      - WJetsToLNu
+      - DYJetsToLL
+    "Single t":
+      - TWminus
+      - TWplus
+    "VV":
+      - ZZ
+      - WW
+      - WZ
+
+  colors_mc:
+    TTToLNu2Q__ttB: CMS_dark_orange
+    TTToLNu2Q__ttC: CMS_orange
+    TTToLNu2Q__ttLF: CMS_blue
+    TTTo2L2Nu : CMS_brown
+    TTH_Hto2B: CMS_red
+    "Single t": CMS_gray
+    TTHtoNon2B: CMS_beige
+    "V+jets": CMS_purple
+    "TTV": CMS_light_blue
+    "VV": CMS_dark_gray
+
+  opts_figure:
+    datamc:
+      figsize: [12,9]
+
+  opts_ylim:
+    datamc:
+      ylim_log:
+        lo: 1.0
+        hi: 1e7
+
+  opts_sig:
+    histtype: "step"
+    stack: false
+    flow: "sum"
+    edges: true
+    linestyle: solid
+    linewidth: 1

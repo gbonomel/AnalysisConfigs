@@ -13,12 +13,20 @@ semileptonic_presel = Cut(
             '2016_PostVFP': 29,
             '2017': 30,
             '2018': 30,
+            '2022_preEE': 30,
+            '2022_postEE': 30,
+            '2023_preBPix': 30,
+            '2023_postBPix': 30,
         },
         "pt_leading_muon": {
             '2016_PreVFP': 26,
             '2016_PostVFP': 26,
             '2017': 29,
             '2018': 26,
+            '2022_preEE': 26,
+            '2022_postEE': 26,
+            '2023_preBPix': 26,
+            '2023_postBPix': 26,
         },
         "met": 20,
     },
@@ -35,12 +43,20 @@ semileptonic_presel_5j = Cut(
             '2016_PostVFP': 29,
             '2017': 30,
             '2018': 30,
+            '2022_preEE': 30,
+            '2022_postEE': 30,
+            '2023_preBPix': 30,
+            '2023_postBPix': 30,
         },
         "pt_leading_muon": {
             '2016_PreVFP': 26,
             '2016_PostVFP': 26,
             '2017': 29,
             '2018': 26,
+            '2022_preEE': 26,
+            '2022_postEE': 26,
+            '2023_preBPix': 26,
+            '2023_postBPix': 26,
         },
         "met": 20,
     },
@@ -63,6 +79,13 @@ semilep_lhe = Cut(
         == 0
     ),
 )
+
+def get_ttB_id(ttBid):
+    return Cut(
+        name="ttB_cut",
+        params={"ttBId": ttBid},
+        function=cuts_f.ttB_masks,
+    )
 
 # Selection for ttbar background categorization
 def get_genTtbarId_100_eq(genTtbarId, name=None):

@@ -1,5 +1,32 @@
 lepton_scale_factors:
   electron_sf:
+    collection: ElectronGood
+    
+    id: 
+    # mapping of the electron id working point of NanoAOD 
+    # to the name of the corresponding scale factors
+    # in the correction set provided by EGM 
+      mvaIso_WP80: wp80iso
+      mvaIso_WP90: wp90iso
+      mvaNoIso_WP80: wp80noiso
+      mvaNoIso_WP90: wp90noiso
+      mvaFall17V2Iso_WP80: wp80iso
+      mvaFall17V2Iso_WP90: wp90iso
+      mvaFall17V2noIso_WP80: wp80noiso
+      mvaFall17V2noIso_WP90: wp90noiso
+
+    era_mapping:
+      "2022_preEE": "2022Re-recoBCD"
+      "2022_postEE": "2022Re-recoE+PromptFG"
+      "2023_preBPix": "2023PromptC"
+      "2023_postBPix": "2023PromptD"
+    
+    apply_eleSS: 
+      '2022_preEE': True
+      '2022_postEE': True
+      '2023_preBPix': True
+      '2023_postBPix': True
+
     trigger_sf:
       2016_PreVFP:
         name: sf_Ele32_EleHT
@@ -13,4 +40,44 @@ lepton_scale_factors:
       '2018':
         name: sf_Ele32_EleHT
         file: "${config_dir:}/trigger_sf/sf_trigger_electron_etaSC_pt_leading_2018_2018_Ele32_EleHT_pass.json"
+      "2022_preEE":
+        name: Electron-HLT-SF 
+        path: HLT_SF_Ele30_MVAiso80ID
+        file: /cvmfs/cms.cern.ch/rsync/cms-nanoAOD/jsonpog-integration/POG/EGM/2022_Summer22/electronHlt.json.gz 
+      "2022_postEE":
+        name: Electron-HLT-SF
+        path: HLT_SF_Ele30_MVAiso80ID
+        file: /cvmfs/cms.cern.ch/rsync/cms-nanoAOD/jsonpog-integration/POG/EGM/2022_Summer22EE/electronHlt.json.gz
+      "2023_preBPix":
+        name: Electron-HLT-SF
+        path: HLT_SF_Ele30_MVAiso80ID
+        file: /cvmfs/cms.cern.ch/rsync/cms-nanoAOD/jsonpog-integration/POG/EGM/2023_Summer23/electronHlt.json.gz 
+      "2023_postBPix":
+        name: Electron-HLT-SF
+        path: HLT_SF_Ele30_MVAiso80ID
+        file: /cvmfs/cms.cern.ch/rsync/cms-nanoAOD/jsonpog-integration/POG/EGM/2023_Summer23BPix/electronHlt.json.gz 
 
+  muon_sf:
+     # in PocketCoffea by convention the cleaned collection are called *Good
+    collection: MuonGood
+    
+    sf_name:
+      '2022_preEE':
+          id: NUM_TightID_DEN_TrackerMuons
+          iso: NUM_LoosePFIso_DEN_TightID
+          trigger: NUM_IsoMu24_DEN_CutBasedIdTight_and_PFIsoTight
+
+      '2022_postEE':
+          id: NUM_TightID_DEN_TrackerMuons
+          iso: NUM_LoosePFIso_DEN_TightID
+          trigger: NUM_IsoMu24_DEN_CutBasedIdTight_and_PFIsoTight
+      
+      '2023_preBPix':
+          id: NUM_TightID_DEN_TrackerMuons
+          iso: NUM_LoosePFIso_DEN_TightID
+          trigger: NUM_IsoMu24_DEN_CutBasedIdTight_and_PFIsoTight
+
+      '2023_postBPix':
+          id: NUM_TightID_DEN_TrackerMuons
+          iso: NUM_LoosePFIso_DEN_TightID
+          trigger: NUM_IsoMu24_DEN_CutBasedIdTight_and_PFIsoTight

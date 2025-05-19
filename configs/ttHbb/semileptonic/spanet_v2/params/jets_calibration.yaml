@@ -1,0 +1,20 @@
+jets_calibration:
+  jec_name_map_MC: "${default_jets_calibration.jec_name_map_MC}"
+  jec_name_map_Data: "${default_jets_calibration.jec_name_map_Data}"
+  apply_jec_nominal:  # this is needed to know which collection is corrected with which jet factory
+    2022_preEE: True
+    2022_postEE: True
+    2023_preBPix: False
+    2023_postBPix: False
+
+  rescale_MET:
+    2022_preEE: True
+    2022_postEE: True
+    2023_preBPix: Trur
+    2023_postBPix: True
+
+  rescale_MET_branch:
+     2022_preEE:  "PuppiMET"
+     2022_postEE: "PuppiMET"
+     2023_preBPix: "PuppiMET"
+     2023_postBPix: "PuppiMET"

@@ -1,0 +1,981 @@
+{
+    "TTH_Hto2B_2022_preEE": {
+      "metadata": {
+        "das_names": "['/TTH_Hto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v3/NANOAODSIM']",
+        "sample": "TTH_Hto2B",
+        "year": "2022_preEE",
+        "isMC": "True",
+        "xsec": "0.331968",
+        "nevents": "614888",
+        "size": "1936549000",
+        "isSkim": "True",
+        "skim_efficiency": "0.20566810827806042",
+        "skim_rescale_genweights": "4.8728423"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2022_preEE/TTH_Hto2B_2022_preEE_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2022_preEE/TTH_Hto2B_2022_preEE_2.root"
+      ]
+    },
+    "TTH_Hto2B_2022_postEE": {
+      "metadata": {
+        "das_names": "['/TTH_Hto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v3/NANOAODSIM']",
+        "sample": "TTH_Hto2B",
+        "year": "2022_postEE",
+        "isMC": "True",
+        "xsec": "0.331968",
+        "nevents": "2117896",
+        "size": "6551755491",
+        "isSkim": "True",
+        "skim_efficiency": "0.20210954321668267",
+        "skim_rescale_genweights": "4.958666"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2022_postEE/TTH_Hto2B_2022_postEE_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2022_postEE/TTH_Hto2B_2022_postEE_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2022_postEE/TTH_Hto2B_2022_postEE_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2022_postEE/TTH_Hto2B_2022_postEE_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2022_postEE/TTH_Hto2B_2022_postEE_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2022_postEE/TTH_Hto2B_2022_postEE_6.root"
+      ]
+    },
+    "TTH_Hto2B_2023_preBPix": {
+      "metadata": {
+        "das_names": "['/TTHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v3/NANOAODSIM']",
+        "sample": "TTH_Hto2B",
+        "year": "2023_preBPix",
+        "isMC": "True",
+        "xsec": "0.331968",
+        "nevents": "2196416",
+        "size": "6974964136",
+        "isSkim": "True",
+        "skim_efficiency": "0.20250931218882537",
+        "skim_rescale_genweights": "4.9473834"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2023_preBPix/TTH_Hto2B_2023_preBPix_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2023_preBPix/TTH_Hto2B_2023_preBPix_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2023_preBPix/TTH_Hto2B_2023_preBPix_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2023_preBPix/TTH_Hto2B_2023_preBPix_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2023_preBPix/TTH_Hto2B_2023_preBPix_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2023_preBPix/TTH_Hto2B_2023_preBPix_6.root"
+      ]
+    },
+    "TTH_Hto2B_2023_postBPix": {
+      "metadata": {
+        "das_names": "['/TTHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v3/NANOAODSIM']",
+        "sample": "TTH_Hto2B",
+        "year": "2023_postBPix",
+        "isMC": "True",
+        "xsec": "0.331968",
+        "nevents": "1118789",
+        "size": "3549770698",
+        "isSkim": "True",
+        "skim_efficiency": "0.2006436513629842",
+        "skim_rescale_genweights": "4.9934316"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2023_postBPix/TTH_Hto2B_2023_postBPix_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2023_postBPix/TTH_Hto2B_2023_postBPix_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTH_Hto2B_2023_postBPix/TTH_Hto2B_2023_postBPix_3.root"
+      ]
+    },
+    "TTHtoNon2B_2022_preEE": {
+      "metadata": {
+        "das_names": "['/TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v4/NANOAODSIM']",
+        "sample": "TTHtoNon2B",
+        "year": "2022_preEE",
+        "isMC": "True",
+        "xsec": "0.5742",
+        "nevents": "610487",
+        "size": "1913006478",
+        "isSkim": "True",
+        "skim_efficiency": "0.15871130435912933",
+        "skim_rescale_genweights": "6.325318"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2022_preEE/TTHtoNon2B_2022_preEE_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2022_preEE/TTHtoNon2B_2022_preEE_2.root"
+      ]
+    },
+    "TTHtoNon2B_2022_postEE": {
+      "metadata": {
+        "das_names": "['/TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v2/NANOAODSIM']",
+        "sample": "TTHtoNon2B",
+        "year": "2022_postEE",
+        "isMC": "True",
+        "xsec": "0.5742",
+        "nevents": "2154303",
+        "size": "6651626070",
+        "isSkim": "True",
+        "skim_efficiency": "0.15436636289766678",
+        "skim_rescale_genweights": "6.503877"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2022_postEE/TTHtoNon2B_2022_postEE_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2022_postEE/TTHtoNon2B_2022_postEE_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2022_postEE/TTHtoNon2B_2022_postEE_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2022_postEE/TTHtoNon2B_2022_postEE_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2022_postEE/TTHtoNon2B_2022_postEE_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2022_postEE/TTHtoNon2B_2022_postEE_6.root"
+      ]
+    },
+    "TTHtoNon2B_2023_preBPix": {
+      "metadata": {
+        "das_names": "['/TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v2/NANOAODSIM']",
+        "sample": "TTHtoNon2B",
+        "year": "2023_preBPix",
+        "isMC": "True",
+        "xsec": "0.5742",
+        "nevents": "1905617",
+        "size": "6084389900",
+        "isSkim": "True",
+        "skim_efficiency": "0.16010924232774715",
+        "skim_rescale_genweights": "6.271442"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2023_preBPix/TTHtoNon2B_2023_preBPix_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2023_preBPix/TTHtoNon2B_2023_preBPix_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2023_preBPix/TTHtoNon2B_2023_preBPix_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2023_preBPix/TTHtoNon2B_2023_preBPix_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2023_preBPix/TTHtoNon2B_2023_preBPix_5.root"
+      ]
+    },
+    "TTHtoNon2B_2023_postBPix": {
+      "metadata": {
+        "das_names": "['/TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v2/NANOAODSIM']",
+        "sample": "TTHtoNon2B",
+        "year": "2023_postBPix",
+        "isMC": "True",
+        "xsec": "0.5742",
+        "nevents": "930229",
+        "size": "2979075900",
+        "isSkim": "True",
+        "skim_efficiency": "0.15798761104601625",
+        "skim_rescale_genweights": "6.3558164"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2023_postBPix/TTHtoNon2B_2023_postBPix_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2023_postBPix/TTHtoNon2B_2023_postBPix_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTHtoNon2B_2023_postBPix/TTHtoNon2B_2023_postBPix_3.root"
+      ]
+    },
+    "DATA_EGamma_2022_preEE_EraC": {
+      "metadata": {
+        "das_names": "['/EGamma/Run2022C-22Sep2023-v1/NANOAOD']",
+        "sample": "DATA_EGamma",
+        "year": "2022_preEE",
+        "isMC": "False",
+        "era": "C",
+        "nevents": "572968",
+        "size": "544261772",
+        "isSkim": "True",
+        "skim_efficiency": "0.0021728918229176595"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2022_preEE_EraC/DATA_EGamma_2022_preEE_EraC_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2022_preEE_EraC/DATA_EGamma_2022_preEE_EraC_2.root"
+      ]
+    },
+    "DATA_EGamma_2023_preBPix_EraCv1": {
+      "metadata": {
+        "das_names": "['/EGamma0/Run2023C-22Sep2023_v1-v1/NANOAOD', '/EGamma1/Run2023C-22Sep2023_v1-v1/NANOAOD']",
+        "sample": "DATA_EGamma",
+        "year": "2023_preBPix",
+        "isMC": "False",
+        "era": "Cv1",
+        "nevents": "455185",
+        "size": "436878356",
+        "isSkim": "True",
+        "skim_efficiency": "0.0033672324903429663"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2023_preBPix_EraCv1/DATA_EGamma_2023_preBPix_EraCv1_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2023_preBPix_EraCv1/DATA_EGamma_2023_preBPix_EraCv1_2.root"
+      ]
+    },
+    "DATA_EGamma_2022_postEE_EraG": {
+      "metadata": {
+        "das_names": "['/EGamma/Run2022G-22Sep2023-v2/NANOAOD']",
+        "sample": "DATA_EGamma",
+        "year": "2022_postEE",
+        "isMC": "False",
+        "era": "G",
+        "nevents": "238854",
+        "size": "236189157",
+        "isSkim": "True",
+        "skim_efficiency": "0.003109780509287197"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2022_postEE_EraG/DATA_EGamma_2022_postEE_EraG_1.root"
+      ]
+    },
+    "DATA_EGamma_2023_preBPix_EraCv2": {
+      "metadata": {
+        "das_names": "['/EGamma0/Run2023C-22Sep2023_v2-v1/NANOAOD', '/EGamma1/Run2023C-22Sep2023_v2-v1/NANOAOD']",
+        "sample": "DATA_EGamma",
+        "year": "2023_preBPix",
+        "isMC": "False",
+        "era": "Cv2",
+        "nevents": "122486",
+        "size": "119123298",
+        "isSkim": "True",
+        "skim_efficiency": "0.0035540140880972212"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2023_preBPix_EraCv2/DATA_EGamma_2023_preBPix_EraCv2_1.root"
+      ]
+    },
+    "DATA_EGamma_2023_preBPix_EraCv3": {
+      "metadata": {
+        "das_names": "['/EGamma0/Run2023C-22Sep2023_v3-v1/NANOAOD', '/EGamma1/Run2023C-22Sep2023_v3-v1/NANOAOD']",
+        "sample": "DATA_EGamma",
+        "year": "2023_preBPix",
+        "isMC": "False",
+        "era": "Cv3",
+        "nevents": "146396",
+        "size": "142679922",
+        "isSkim": "True",
+        "skim_efficiency": "0.0033286468767139647"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2023_preBPix_EraCv3/DATA_EGamma_2023_preBPix_EraCv3_1.root"
+      ]
+    },
+    "DATA_EGamma_2023_preBPix_EraCv4": {
+      "metadata": {
+        "das_names": "['/EGamma0/Run2023C-22Sep2023_v4-v1/NANOAOD', '/EGamma1/Run2023C-22Sep2023_v4-v1/NANOAOD']",
+        "sample": "DATA_EGamma",
+        "year": "2023_preBPix",
+        "isMC": "False",
+        "era": "Cv4",
+        "nevents": "996118",
+        "size": "1002021332",
+        "isSkim": "True",
+        "skim_efficiency": "0.003111335056275697"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2023_preBPix_EraCv4/DATA_EGamma_2023_preBPix_EraCv4_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2023_preBPix_EraCv4/DATA_EGamma_2023_preBPix_EraCv4_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2023_preBPix_EraCv4/DATA_EGamma_2023_preBPix_EraCv4_3.root"
+      ]
+    },
+    "DATA_EGamma_2023_postBPix_EraD": {
+      "metadata": {
+        "das_names": "['/EGamma0/Run2023D-22Sep2023_v1-v1/NANOAOD', '/EGamma0/Run2023D-22Sep2023_v2-v1/NANOAOD', '/EGamma1/Run2023D-22Sep2023_v1-v1/NANOAOD', '/EGamma1/Run2023D-22Sep2023_v2-v1/NANOAOD']",
+        "sample": "DATA_EGamma",
+        "year": "2023_postBPix",
+        "isMC": "False",
+        "era": "D",
+        "nevents": "825845",
+        "size": "829879325",
+        "isSkim": "True",
+        "skim_efficiency": "0.003213061859314465"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2023_postBPix_EraD/DATA_EGamma_2023_postBPix_EraD_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2023_postBPix_EraD/DATA_EGamma_2023_postBPix_EraD_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2023_postBPix_EraD/DATA_EGamma_2023_postBPix_EraD_3.root"
+      ]
+    },
+    "DATA_EGamma_2022_preEE_EraD": {
+      "metadata": {
+        "das_names": "['/EGamma/Run2022D-22Sep2023-v1/NANOAOD']",
+        "sample": "DATA_EGamma",
+        "year": "2022_preEE",
+        "isMC": "False",
+        "era": "D",
+        "nevents": "270873",
+        "size": "266531125",
+        "isSkim": "True",
+        "skim_efficiency": "0.003038907411854262"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2022_preEE_EraD/DATA_EGamma_2022_preEE_EraD_1.root"
+      ]
+    },
+    "TTTo2L2Nu_2022_preEE": {
+      "metadata": {
+        "das_names": "['/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM']",
+        "sample": "TTTo2L2Nu",
+        "year": "2022_preEE",
+        "isMC": "True",
+        "xsec": "98.0963",
+        "nevents": "5999983",
+        "size": "13695778774",
+        "isSkim": "True",
+        "skim_efficiency": "0.25233180481507644",
+        "skim_rescale_genweights": "3.9597862"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_9.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_10.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_11.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_12.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_13.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_14.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_15.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_16.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_preEE/TTTo2L2Nu_2022_preEE_17.root"
+      ]
+    },
+    "TTTo2L2Nu_2022_postEE": {
+      "metadata": {
+        "das_names": "['/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v2/NANOAODSIM']",
+        "sample": "TTTo2L2Nu",
+        "year": "2022_postEE",
+        "isMC": "True",
+        "xsec": "98.0963",
+        "nevents": "20954298",
+        "size": "47065621965",
+        "isSkim": "True",
+        "skim_efficiency": "0.24707534293538053",
+        "skim_rescale_genweights": "4.043778"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_9.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_10.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_11.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_12.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_13.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_14.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_15.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_16.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_17.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_18.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_19.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_20.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_21.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_22.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_23.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_24.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_25.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_26.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_27.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_28.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_29.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_30.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_31.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_32.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_33.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_34.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_35.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_36.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_37.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_38.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_39.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_40.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_41.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_42.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_43.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_44.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_45.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_46.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_47.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_48.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_49.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_50.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_51.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_52.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_53.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_54.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_55.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_56.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_57.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_58.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_59.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_60.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_61.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_62.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_63.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_64.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2022_postEE/TTTo2L2Nu_2022_postEE_65.root"
+      ]
+    },
+    "TTTo2L2Nu_2023_preBPix": {
+      "metadata": {
+        "das_names": "['/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v2/NANOAODSIM']",
+        "sample": "TTTo2L2Nu",
+        "year": "2023_preBPix",
+        "isMC": "True",
+        "xsec": "98.0963",
+        "nevents": "12184979",
+        "size": "28183263308",
+        "isSkim": "True",
+        "skim_efficiency": "0.2527846607057652",
+        "skim_rescale_genweights": "3.9524815"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_9.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_10.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_11.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_12.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_13.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_14.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_15.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_16.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_17.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_18.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_19.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_20.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_21.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_22.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_23.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_24.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_25.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_26.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_27.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_28.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_29.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_30.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_31.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_32.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_33.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_34.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_preBPix/TTTo2L2Nu_2023_preBPix_35.root"
+      ]
+    },
+    "TTTo2L2Nu_2023_postBPix": {
+      "metadata": {
+        "das_names": "['/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v3/NANOAODSIM']",
+        "sample": "TTTo2L2Nu",
+        "year": "2023_postBPix",
+        "isMC": "True",
+        "xsec": "98.0963",
+        "nevents": "6143687",
+        "size": "14245124849",
+        "isSkim": "True",
+        "skim_efficiency": "0.24924690656821777",
+        "skim_rescale_genweights": "4.0088887"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_9.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_10.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_11.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_12.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_13.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_14.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_15.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_16.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTTo2L2Nu_2023_postBPix/TTTo2L2Nu_2023_postBPix_17.root"
+      ]
+    },
+    "TTToLNu2Q_2022_preEE": {
+      "metadata": {
+        "das_names": "['/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM']",
+        "sample": "TTToLNu2Q",
+        "year": "2022_preEE",
+        "isMC": "True",
+        "xsec": "405.8099",
+        "nevents": "8159328",
+        "size": "18903949902",
+        "isSkim": "True",
+        "skim_efficiency": "0.16393518642231614",
+        "skim_rescale_genweights": "6.094897"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_9.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_10.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_11.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_12.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_13.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_14.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_15.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_16.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_17.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_18.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_19.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_20.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_21.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_22.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_preEE/TTToLNu2Q_2022_preEE_23.root"
+      ]
+    },
+    "DATA_EGamma_2022_postEE_EraE": {
+      "metadata": {
+        "das_names": "['/EGamma/Run2022E-22Sep2023-v1/NANOAOD']",
+        "sample": "DATA_EGamma",
+        "year": "2022_postEE",
+        "isMC": "False",
+        "era": "E",
+        "nevents": "461687",
+        "size": "453257032",
+        "isSkim": "True",
+        "skim_efficiency": "0.0031057659458613492"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2022_postEE_EraE/DATA_EGamma_2022_postEE_EraE_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2022_postEE_EraE/DATA_EGamma_2022_postEE_EraE_2.root"
+      ]
+    },
+    "TTToLNu2Q_2022_postEE": {
+      "metadata": {
+        "das_names": "['/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v2/NANOAODSIM']",
+        "sample": "TTToLNu2Q",
+        "year": "2022_postEE",
+        "isMC": "True",
+        "xsec": "405.8099",
+        "nevents": "42631678",
+        "size": "97411731270",
+        "isSkim": "True",
+        "skim_efficiency": "0.15966446987789726",
+        "skim_rescale_genweights": "6.257886"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_9.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_10.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_11.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_12.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_13.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_14.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_15.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_16.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_17.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_18.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_19.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_20.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_21.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_22.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_23.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_24.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_25.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_26.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_27.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_28.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_29.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_30.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_31.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_32.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_33.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_34.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_35.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_36.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_37.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_38.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_39.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_40.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_41.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_42.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_43.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_44.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_45.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_46.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_47.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_48.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_49.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_50.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_51.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_52.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_53.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_54.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_55.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_56.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_57.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_58.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_59.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_60.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_61.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_62.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_63.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_64.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_65.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_66.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_67.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_68.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_69.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_70.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_71.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_72.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_73.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_74.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_75.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_76.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_77.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_78.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_79.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_80.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_81.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_82.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_83.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_84.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_85.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_86.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_87.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_88.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_89.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_90.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_91.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_92.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_93.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_94.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_95.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_96.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_97.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_98.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_99.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_100.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_101.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_102.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_103.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_104.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_105.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_106.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_107.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_108.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_109.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_110.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_111.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_112.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_113.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_114.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_115.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_116.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_117.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_118.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2022_postEE/TTToLNu2Q_2022_postEE_119.root"
+      ]
+    },
+    "TTToLNu2Q_2023_preBPix": {
+      "metadata": {
+        "das_names": "['/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v2/NANOAODSIM']",
+        "sample": "TTToLNu2Q",
+        "year": "2023_preBPix",
+        "isMC": "True",
+        "xsec": "405.8099",
+        "nevents": "25111375",
+        "size": "58947807783",
+        "isSkim": "True",
+        "skim_efficiency": "0.16434468608676872",
+        "skim_rescale_genweights": "6.080212"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_9.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_10.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_11.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_12.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_13.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_14.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_15.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_16.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_17.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_18.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_19.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_20.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_21.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_22.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_23.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_24.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_25.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_26.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_27.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_28.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_29.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_30.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_31.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_32.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_33.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_34.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_35.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_36.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_37.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_38.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_39.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_40.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_41.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_42.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_43.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_44.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_45.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_46.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_47.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_48.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_49.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_50.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_51.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_52.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_53.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_54.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_55.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_56.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_57.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_58.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_59.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_60.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_61.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_62.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_63.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_64.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_65.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_66.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_preBPix/TTToLNu2Q_2023_preBPix_67.root"
+      ]
+    },
+    "TTToLNu2Q_2023_postBPix": {
+      "metadata": {
+        "das_names": "['/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v3/NANOAODSIM']",
+        "sample": "TTToLNu2Q",
+        "year": "2023_postBPix",
+        "isMC": "True",
+        "xsec": "405.8099",
+        "nevents": "13291354",
+        "size": "31226650484",
+        "isSkim": "True",
+        "skim_efficiency": "0.1619751151624461",
+        "skim_rescale_genweights": "6.169285"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_9.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_10.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_11.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_12.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_13.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_14.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_15.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_16.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_17.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_18.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_19.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_20.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_21.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_22.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_23.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_24.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_25.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_26.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_27.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_28.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_29.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_30.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_31.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_32.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_33.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_34.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/TTToLNu2Q_2023_postBPix/TTToLNu2Q_2023_postBPix_35.root"
+      ]
+    },
+    "SingleTop_2022_postEE": {
+      "metadata": {
+        "das_names": "['/TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v2/NANOAODSIM']",
+        "sample": "SingleTop",
+        "year": "2022_postEE",
+        "isMC": "True",
+        "xsec": "11.9686",
+        "nevents": "1132114",
+        "size": "2303012737",
+        "isSkim": "True",
+        "skim_efficiency": "0.068671261192986",
+        "skim_rescale_genweights": "14.562389"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/SingleTop_2022_postEE/SingleTop_2022_postEE_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/SingleTop_2022_postEE/SingleTop_2022_postEE_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/SingleTop_2022_postEE/SingleTop_2022_postEE_3.root"
+      ]
+    },
+    "SingleTop_2022_preEE": {
+      "metadata": {
+        "das_names": "['/TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM']",
+        "sample": "SingleTop",
+        "year": "2022_preEE",
+        "isMC": "True",
+        "xsec": "11.9686",
+        "nevents": "310386",
+        "size": "647099097",
+        "isSkim": "True",
+        "skim_efficiency": "0.0710840136888702",
+        "skim_rescale_genweights": "14.06804"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/SingleTop_2022_preEE/SingleTop_2022_preEE_1.root"
+      ]
+    },
+    "SingleTop_2023_preBPix": {
+      "metadata": {
+        "das_names": "['/TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v2/NANOAODSIM']",
+        "sample": "SingleTop",
+        "year": "2023_preBPix",
+        "isMC": "True",
+        "xsec": "11.9686",
+        "nevents": "712479",
+        "size": "1495917157",
+        "isSkim": "True",
+        "skim_efficiency": "0.07382997031792278",
+        "skim_rescale_genweights": "13.545104"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/SingleTop_2023_preBPix/SingleTop_2023_preBPix_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/SingleTop_2023_preBPix/SingleTop_2023_preBPix_2.root"
+      ]
+    },
+    "SingleTop_2023_postBPix": {
+      "metadata": {
+        "das_names": "['/TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v6-v2/NANOAODSIM']",
+        "sample": "SingleTop",
+        "year": "2023_postBPix",
+        "isMC": "True",
+        "xsec": "11.9686",
+        "nevents": "377189",
+        "size": "788856016",
+        "isSkim": "True",
+        "skim_efficiency": "0.07284649008538469",
+        "skim_rescale_genweights": "13.728512"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/SingleTop_2023_postBPix/SingleTop_2023_postBPix_1.root"
+      ]
+    },
+    "WJetsToLNu_2022_preEE": {
+      "metadata": {
+        "das_names": "['/WtoLNu-4Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM']",
+        "sample": "WJetsToLNu",
+        "year": "2022_preEE",
+        "isMC": "True",
+        "xsec": "18051.6",
+        "nevents": "8541",
+        "size": "8933544",
+        "isSkim": "True",
+        "skim_efficiency": "0.00010046000118185469",
+        "skim_rescale_genweights": "9943.212"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/WJetsToLNu_2022_preEE/WJetsToLNu_2022_preEE_1.root"
+      ]
+    },
+    "WJetsToLNu_2022_postEE": {
+      "metadata": {
+        "das_names": "['/WtoLNu-4Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8/Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v2/NANOAODSIM']",
+        "sample": "WJetsToLNu",
+        "year": "2022_postEE",
+        "isMC": "True",
+        "xsec": "18051.6",
+        "nevents": "31957",
+        "size": "32791693",
+        "isSkim": "True",
+        "skim_efficiency": "9.389206869747462e-05",
+        "skim_rescale_genweights": "10647.844"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/WJetsToLNu_2022_postEE/WJetsToLNu_2022_postEE_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/WJetsToLNu_2022_postEE/WJetsToLNu_2022_postEE_2.root"
+      ]
+    },
+    "WJetsToLNu_2023_preBPix": {
+      "metadata": {
+        "das_names": "['/WtoLNu-4Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v3/NANOAODSIM']",
+        "sample": "WJetsToLNu",
+        "year": "2023_preBPix",
+        "isMC": "True",
+        "xsec": "18051.6",
+        "nevents": "25620",
+        "size": "27365212",
+        "isSkim": "True",
+        "skim_efficiency": "0.00013484026008065152",
+        "skim_rescale_genweights": "7416.0435"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/WJetsToLNu_2023_preBPix/WJetsToLNu_2023_preBPix_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/WJetsToLNu_2023_preBPix/WJetsToLNu_2023_preBPix_2.root"
+      ]
+    },
+    "WJetsToLNu_2023_postBPix": {
+      "metadata": {
+        "das_names": "['/WtoLNu-4Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v3/NANOAODSIM']",
+        "sample": "WJetsToLNu",
+        "year": "2023_postBPix",
+        "isMC": "True",
+        "xsec": "18051.6",
+        "nevents": "12577",
+        "size": "13445284",
+        "isSkim": "True",
+        "skim_efficiency": "0.00013332184244701603",
+        "skim_rescale_genweights": "7499.9893"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/WJetsToLNu_2023_postBPix/WJetsToLNu_2023_postBPix_1.root"
+      ]
+    },
+    "DATA_EGamma_2022_postEE_EraF": {
+      "metadata": {
+        "das_names": "['/EGamma/Run2022F-22Sep2023-v1/NANOAOD']",
+        "sample": "DATA_EGamma",
+        "year": "2022_postEE",
+        "isMC": "False",
+        "era": "F",
+        "nevents": "1473533",
+        "size": "1455716133",
+        "isSkim": "True",
+        "skim_efficiency": "0.0031731650594462846"
+      },
+      "files": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2022_postEE_EraF/DATA_EGamma_2022_postEE_EraF_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2022_postEE_EraF/DATA_EGamma_2022_postEE_EraF_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2022_postEE_EraF/DATA_EGamma_2022_postEE_EraF_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/ttHbb/Run3_semileptonic_skim_hadd/DATA_EGamma_2022_postEE_EraF/DATA_EGamma_2022_postEE_EraF_4.root"
+      ]
+    }
+  }
+  
