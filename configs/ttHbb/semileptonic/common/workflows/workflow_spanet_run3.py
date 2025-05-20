@@ -30,6 +30,7 @@ class SpanetInferenceProcessor(ttHbbPartonMatchingProcessorFull):
             sess_options = ort.SessionOptions()
             sess_options.graph_optimization_level = ort.GraphOptimizationLevel.ORT_ENABLE_ALL
             sess_options.intra_op_num_threads = 1
+            #sess_options.execution_mode = ort.ExecutionMode.ORT_PARALLEL
             model_session = ort.InferenceSession(
                 self.workflow_options["spanet_model"],
                 sess_options = sess_options,
@@ -38,19 +39,25 @@ class SpanetInferenceProcessor(ttHbbPartonMatchingProcessorFull):
         else:
             model_session = worker.data['model_session_spanet']
 
-        print(model_session)
+        #print(model_session)
+        for input in model_session.get_inputs():
+            print(f"{input.name}, {input.shape}")
+    
+        for output in model_session.get_outputs():
+            print(f"{output.name}, {output.shape}")
 
         btagging_algorithm = self.params.btagging.working_point[self._year]["btagging_algorithm"]
         pad_dict = {btagging_algorithm:0., "btag_L":0, "btag_M":0, "btag_T":0, "btag_XT":0, "btag_XXT":0, "pt":0., "phi":0., "eta":0.} 
         jets_padded = ak.zip(
             {key : ak.fill_none(ak.pad_none(self.events.JetGood[key], 16, clip=True), value) for key, value in pad_dict.items()}
         )
-
+        
         data = np.transpose(
             np.stack([
                 np.log(1 + ak.to_numpy(jets_padded.pt)),
                 ak.to_numpy(jets_padded.eta),
                 ak.to_numpy(jets_padded.phi),
+                ak.to_numpy(jets_padded[btagging_algorithm]),
                 ak.to_numpy(jets_padded.btag_L),
                 ak.to_numpy(jets_padded.btag_M),
                 ak.to_numpy(jets_padded.btag_T),
@@ -63,7 +70,7 @@ class SpanetInferenceProcessor(ttHbbPartonMatchingProcessorFull):
 
         met_data = np.stack([np.log(1+ ak.to_numpy(self.events.MET.pt)),
                              ak.zeros_like(self.events.MET.pt).to_numpy(),
-                             ak.to_numpy(self.events.MET.eta),
+                             #ak.to_numpy(self.events.MET.eta), # eta not included in the 1st step now
                              ak.to_numpy(self.events.MET.phi)
                              ], axis=1)[:,None,:].astype(np.float32)
 
@@ -72,12 +79,14 @@ class SpanetInferenceProcessor(ttHbbPartonMatchingProcessorFull):
                              ak.to_numpy(self.events.LeptonGood[:,0].phi),
                              ], axis=1)[:,None,:].astype(np.float32)
 
-        ht_array = ak.to_numpy(self.events.JetGood_Ht[:,None, None]).astype(np.float32) # not log normalized in our case
+        breakpoint()
+        ht_array = np.stack([ak.to_numpy(self.events.JetGood_Ht)], axis=1)[:,None,:].astype(np.float32) # not log 
+        #ht_array = ak.to_numpy(self.events.JetGood_Ht[:,None, None]).astype(np.float32) # not log normalized in our case
         #ht_array = ak.to_numpy(np.log(self.events.JetGood_Ht[:,None, None])).astype(np.float32) # if log normalized
-
+        
         mask_global = np.ones(shape=[met_data.shape[0], 1]) == 1
-
         output_names = ["EVENT/signal"] #["EVENT/tthbb", "EVENT/ttbb", "EVENT/ttcc", "EVENT/ttlf"]
+        
         outputs = model_session.run(input_feed={
             "Jet_data": data,
             "Jet_mask": mask,
@@ -89,7 +98,6 @@ class SpanetInferenceProcessor(ttHbbPartonMatchingProcessorFull):
             "Event_mask": mask_global},
         output_names=output_names
         )
-
         # creates output branch "spanet_output" containing all the samples included in the multiclassifier
         outputs_zipped = dict(zip(output_names, outputs))
         self.events["spanet_output"] = ak.zip(
