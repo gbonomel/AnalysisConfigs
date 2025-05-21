@@ -39,12 +39,11 @@ class SpanetInferenceProcessor(ttHbbPartonMatchingProcessorFull):
         else:
             model_session = worker.data['model_session_spanet']
 
-        #print(model_session)
-        for input in model_session.get_inputs():
-            print(f"{input.name}, {input.shape}")
-    
-        for output in model_session.get_outputs():
-            print(f"{output.name}, {output.shape}")
+        #for input in model_session.get_inputs():
+        #    print(f"{input.name}, {input.shape}")
+
+        #for output in model_session.get_outputs():
+        #    print(f"{output.name}, {output.shape}")
 
         btagging_algorithm = self.params.btagging.working_point[self._year]["btagging_algorithm"]
         pad_dict = {btagging_algorithm:0., "btag_L":0, "btag_M":0, "btag_T":0, "btag_XT":0, "btag_XXT":0, "pt":0., "phi":0., "eta":0.} 
@@ -70,7 +69,7 @@ class SpanetInferenceProcessor(ttHbbPartonMatchingProcessorFull):
 
         met_data = np.stack([np.log(1+ ak.to_numpy(self.events.MET.pt)),
                              ak.zeros_like(self.events.MET.pt).to_numpy(),
-                             #ak.to_numpy(self.events.MET.eta), # eta not included in the 1st step now
+                             #ak.to_numpy(self.events.MET.eta), # eta not included 
                              ak.to_numpy(self.events.MET.phi)
                              ], axis=1)[:,None,:].astype(np.float32)
 
@@ -79,9 +78,7 @@ class SpanetInferenceProcessor(ttHbbPartonMatchingProcessorFull):
                              ak.to_numpy(self.events.LeptonGood[:,0].phi),
                              ], axis=1)[:,None,:].astype(np.float32)
 
-        breakpoint()
-        ht_array = np.stack([ak.to_numpy(self.events.JetGood_Ht)], axis=1)[:,None,:].astype(np.float32) # not log 
-        #ht_array = ak.to_numpy(self.events.JetGood_Ht[:,None, None]).astype(np.float32) # not log normalized in our case
+        ht_array = ak.to_numpy(self.events.JetGood_Ht[:,None, None]).astype(np.float32) # not log normalized in our case
         #ht_array = ak.to_numpy(np.log(self.events.JetGood_Ht[:,None, None])).astype(np.float32) # if log normalized
         
         mask_global = np.ones(shape=[met_data.shape[0], 1]) == 1
@@ -102,21 +99,20 @@ class SpanetInferenceProcessor(ttHbbPartonMatchingProcessorFull):
         outputs_zipped = dict(zip(output_names, outputs))
         self.events["spanet_output"] = ak.zip(
             {
-                key.split("/")[-1]: ak.from_numpy(value[:,1]) for key, value in outputs_zipped.items()
+                key.split("/")[-1]: ak.from_numpy(value[:,:]) for key, value in outputs_zipped.items()
             }
         )
-
         # define variable for each sample used in the classifier 
-        self.events.spanet_output["tthbb"]     = self.events.spanet_output[:,1]
-        self.events.spanet_output["ttbb"]      = self.events.spanet_output[:,2]
-        self.events.spanet_output["ttcc"]      = self.events.spanet_output[:,3]
-        self.events.spanet_output["ttlf"]      = self.events.spanet_output[:,4]
-        self.events.spanet_output["ttv"]       = self.events.spanet_output[:,5]
-        self.events.spanet_output["singletop"] = self.events.spanet_output[:,6]
+        self.events["spanet_tthbb"]     = self.events.spanet_output.signal[:,1]
+        self.events["spanet_ttbb"]      = self.events.spanet_output.signal[:,2]
+        self.events["spanet_ttcc"]      = self.events.spanet_output.signal[:,3]
+        self.events["spanet_ttlf"]      = self.events.spanet_output.signal[:,4]
+        self.events["spanet_ttv"]       = self.events.spanet_output.signal[:,5]
+        self.events["spanet_singletop"] = self.events.spanet_output.signal[:,6]
 
         # Transform ttHbb score with quantile transformation
         params_quantile_transformer = self.params["quantile_transformer"][self.events.metadata["year"]]
         transformer = WeightedQuantileTransformer(n_quantiles=params_quantile_transformer["n_quantiles"], output_distribution=params_quantile_transformer["output_distribution"])
         transformer.load(params_quantile_transformer["file"])
-        transformed_score = transformer.transform(self.events.spanet_output.tthbb)
-        self.events["spanet_output"] = ak.with_field(self.events["spanet_output"], transformed_score, "tthbb_transformed")
+        transformed_score = transformer.transform(self.events.spanet_tthbb)
+        self.events["spanet_tthbb_transformed"] = transformed_score

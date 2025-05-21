@@ -22,7 +22,7 @@ import os
 localdir = os.path.dirname(os.path.abspath(__file__))
 
 # Define SPANet model path for inference
-spanet_model_path = "/eos/home-g/gbonomel/tth/spanet/models/multiclassifier_Run3_weights/spanet_v2.onnx"
+spanet_model_path = "/eos/home-g/gbonomel/tth/spanet/models/multiclassifier_Run3_weights/small_ini_emb16.onnx"
 
 # Loading default parameters
 from pocket_coffea.parameters import defaults
@@ -41,14 +41,16 @@ parameters = defaults.merge_parameters_from_files(default_parameters,
 
 parameters["run_period"] = "Run3"
 
-samples = ["TTH_Hto2B",
-			#"TTHtoNon2B", # exclude for now
+samples = [#"DATA_EGamma",
+            #"DATA_SingleMuon",
+            "TTH_Hto2B",
+			##"TTHtoNon2B", # exclude for now
 			#"TTTo2L2Nu",
             #"TTToLNu2Q",
             #"TWminus",
             #"TWplus",
             #"WJetsToLNu",
-            #"ZZ",
+            ##"ZZ", # not considered
             #"WW",
             #"WZ",
             #"TTLL_ML_to50",
@@ -65,8 +67,7 @@ cfg = Configurator(
         "jsons": [
             f"{localdir}/datasets/minor_background_Run3.json",
             f"{localdir}/datasets/single_muon_Run3.json",
-            f"{localdir}/datasets/signal_Run3.json",
-            #f"{localdir}/datasets/datasets_Run3_skim.json",
+            f"{localdir}/datasets/datasets_Run3_skim.json",
             ],
         "filter" : {
             "samples": samples,
@@ -92,7 +93,7 @@ cfg = Configurator(
     workflow = SpanetInferenceProcessor,
     workflow_options = {"parton_jet_max_dR": 0.3,
                         "parton_jet_max_dR_postfsr": 1.0,
-                        "dump_columns_as_arrays_per_chunk": "root://eoscms.cern.ch//eos/home-g/gbonomel/tth/ntuples/spanet/output_columns_spanet_inference_transformed", 
+                        "dump_columns_as_arrays_per_chunk": "root://eoshome-g.cern.ch//eos/user/g/gbonomel/tth/ntuples/spanet/output_columns_spanet_inference_transformed", 
                         "spanet_model" : spanet_model_path
                         },
     
@@ -210,25 +211,25 @@ cfg = Configurator(
                     label="$H_{T,bb}(min \Delta R(bb))$ [GeV]")]
         ),
         "spanet_tthbb" : HistConf(
-            [Axis(coll="spanet_output", field="tthbb", bins=50, start=0, stop=1, label="tthbb SPANet score")],
+            [Axis(coll="events", field="spanet_tthbb", bins=50, start=0, stop=1, label="tthbb SPANet score")],
         ),
         "spanet_tthbb_transformed" : HistConf(
-            [Axis(coll="spanet_output", field="tthbb_transformed", bins=50, start=0, stop=1, label="tthbb SPANet transformed score")],
+            [Axis(coll="events", field="spanet_tthbb_transformed", bins=50, start=0, stop=1, label="tthbb SPANet transformed score")],
         ),
         "spanet_ttbb" : HistConf(
-            [Axis(coll="spanet_output", field="ttbb", bins=50, start=0, stop=1, label="ttbb SPANet score")],
+            [Axis(coll="events", field="spanet_ttbb", bins=50, start=0, stop=1, label="ttbb SPANet score")],
         ),
         "spanet_ttcc" : HistConf(
-            [Axis(coll="spanet_output", field="ttcc", bins=50, start=0, stop=1, label="ttcc SPANet score")],
+            [Axis(coll="events", field="spanet_ttcc", bins=50, start=0, stop=1, label="ttcc SPANet score")],
         ),
         "spanet_ttlf" : HistConf(
-            [Axis(coll="spanet_output", field="ttlf", bins=50, start=0, stop=1, label="ttlf SPANet score")],
+            [Axis(coll="events", field="spanet_ttlf", bins=50, start=0, stop=1, label="ttlf SPANet score")],
         ),
         "spanet_ttv" : HistConf(
-            [Axis(coll="spanet_output", field="ttv", bins=50, start=0, stop=1, label="ttV SPANet score")],
+            [Axis(coll="events", field="spanet_ttv", bins=50, start=0, stop=1, label="ttV SPANet score")],
         ),
         "spanet_singletop" : HistConf(
-            [Axis(coll="spanet_output", field="singletop", bins=50, start=0, stop=1, label="singleTop SPANet score")],
+            [Axis(coll="events", field="spanet_singletop", bins=50, start=0, stop=1, label="singleTop SPANet score")],
         )
     },
     columns = {
@@ -238,7 +239,7 @@ cfg = Configurator(
                     "semilep": [
                         ColOut(
                             "JetGood",
-                            ["pt", "eta", "phi", "hadronFlavour", "btagRobustParTAK4B", "btag_L", "btag_M", "btag_T","btag_XT", "btag_XXT"],
+                            ["pt", "eta", "phi", "btagRobustParTAK4B", "btag_L", "btag_M", "btag_T","btag_XT", "btag_XXT"],
                             flatten=False
                         ),
                         ColOut(
@@ -249,7 +250,7 @@ cfg = Configurator(
                         ),
                         ColOut(
                             "MET",
-                            ["phi","pt","significance"],
+                            ["pt","phi","significance"],
                             flatten=False
                         ),
                         ColOut(
@@ -258,8 +259,8 @@ cfg = Configurator(
                             flatten=False
                         ),
                         ColOut(
-                            "spanet_output",
-                            ["tthbb", "ttbb", "ttcc", "ttlf", "ttv", "singletop", "tthbb_transformed"],
+                            "events",
+                            ["spanet_tthbb", "spanet_ttbb", "spanet_ttcc", "spanet_ttlf", "spanet_ttv", "spanet_singletop", "spanet_tthbb_transformed"],
                             flatten=False
                         )
                     ]
@@ -269,10 +270,10 @@ cfg = Configurator(
             "TTH_Hto2B": {
                 "bycategory": {
                     "semilep": [
-                        ColOut("HiggsParton",
+                        ColOut("HiggsGen",
                                ["pt","eta","phi","mass","pdgId"], pos_end=1, store_size=False, flatten=False),
                         ColOut("JetGoodMatched",
-                               ["pt", "eta", "phi", "hadronFlavour", "btagRobustParTAK4B", "btag_L", "btag_M", "btag_T","btag_XT", "btag_XXT", "dRMatchedJet"],
+                               ["pt", "eta", "phi", "btagRobustParTAK4B", "btag_L", "btag_M", "btag_T","btag_XT", "btag_XXT", "dRMatchedJet","provenance"],
                                flatten=False
                         ),
                     ]

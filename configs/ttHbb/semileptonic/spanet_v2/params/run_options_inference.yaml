@@ -2,15 +2,15 @@ scaleout: 300
 chunksize: 100000
 mem-per-worker: "8GB"
 disk-per-worker: "4GB"
-queue: "standard"
-walltime: "12:00:00"
+queue: "workday"
+walltime: "8:00:00"
 tree-reduction: 5
 adaptive: false
 performance-report: false
 custom-setup-commands: null
 conda-env: false
 death-timeout: "3600"
-spanet_model: "/eos/home-g/gbonomel/tth/spanet/models/multiclassifier_Run3_weights/spanet_v2.onnx"
+spanet_model: "/eos/home-g/gbonomel/tth/spanet/models/multiclassifier_Run3_weights/small_ini_emb16.onnx"
 
 group-samples:
   TTV:

@@ -4,6 +4,7 @@ from pocket_coffea.lib.objects import btagging, met_xy_correction
 from pocket_coffea.lib.deltaR_matching import metric_eta, metric_phi
 from pocket_coffea.lib.deltaR_matching import object_matching
 from pocket_coffea.lib.parton_provenance import get_partons_provenance_ttHbb, get_partons_provenance_ttbb4F, get_partons_provenance_tt5F
+from . import jet_parton_matching
 from .jet_parton_matching import do_genmatching
 
 class ttHbbPartonMatchingProcessorFull(ttHbbBaseProcessor):
